@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9A8B2590244880A600382CDF /* SpektraCheckoutSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8B258E244880A600382CDF /* SpektraCheckoutSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8B2597244880C700382CDF /* Spektra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2596244880C700382CDF /* Spektra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A8B258B244880A600382CDF /* SpektraCheckoutSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpektraCheckoutSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8B258E244880A600382CDF /* SpektraCheckoutSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpektraCheckoutSDK.h; sourceTree = "<group>"; };
 		9A8B258F244880A600382CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8B2596244880C700382CDF /* Spektra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spektra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				9A8B258E244880A600382CDF /* SpektraCheckoutSDK.h */,
 				9A8B258F244880A600382CDF /* Info.plist */,
+				9A8B2596244880C700382CDF /* Spektra.swift */,
 			);
 			path = SpektraCheckoutSDK;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					9A8B258A244880A600382CDF = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8B2597244880C700382CDF /* Spektra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		9A8B2594244880A600382CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -267,6 +273,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SpektraCheckoutSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -275,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.spektra.SpektraCheckoutSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +291,7 @@
 		9A8B2595244880A600382CDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -290,6 +299,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SpektraCheckoutSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
