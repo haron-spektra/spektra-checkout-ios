@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SpektraCheckoutSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of SpektraCheckoutSDK."
+  spec.summary      = "Spektra Checkout SDK for ios built in Swift 5"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/SpektraCheckoutSDK"
+  spec.homepage     = "https://spektra.co"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Haron Ongaki" => "haron@spektra.co" }
+  spec.author             = { "Spektra Inc" => "admin@spektra.co" }
   # Or just: spec.author    = "Haron Ongaki"
   # spec.authors            = { "Haron Ongaki" => "haron@spektra.co" }
   # spec.social_media_url   = "https://twitter.com/Haron Ongaki"
@@ -79,8 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/SpektraCheckoutSDK.git", :tag => "#{spec.version}" }
-
+  spec.source       = { :git => "https://github.com/haron-spektra/spektra-checkout-ios.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
