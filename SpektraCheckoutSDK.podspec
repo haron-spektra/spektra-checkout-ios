@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SpektraCheckoutSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "Spektra Checkout SDK for ios built in Swift 5"
+  spec.summary      = "Spektra Checkout SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Spektra Checkout SDK for ios built in Swift 5"
+  spec.description  = "Spektra Checkout SDK for ios built in Swift 5. Register as a Spektra Merchant and easily implement Specktra checkout to handle mobile payments."
 
 
   spec.homepage     = "https://spektra.co"
