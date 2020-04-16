@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "Spektra Checkout SDK for ios built in Swift 5"
+
 
   spec.homepage     = "https://spektra.co"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :text => "The MIT License (MIT) \n Copyright (c) Spektra Inc <admin@spektra.co> \n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -55,7 +55,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "Spektra Inc" => "admin@spektra.co" }
   # Or just: spec.author    = "Haron Ongaki"
   # spec.authors            = { "Haron Ongaki" => "haron@spektra.co" }
-  # spec.social_media_url   = "https://twitter.com/Haron Ongaki"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
